@@ -1,0 +1,11 @@
+node_modules/
+.env
+*.log
+
+cd "C:\Users\SNJ\Downloads\school-management-api\school-api"
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/MaheshGavande/School-Management.git
+git push -u origin main
